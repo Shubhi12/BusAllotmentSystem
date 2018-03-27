@@ -1,0 +1,198 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    tools:context="com.mta.busreservation.SeatDetail">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#1b847b7b"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/linearLayout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment With Card"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:id="@+id/cname"
+            android:textColor="#000"
+            android:layout_marginTop="7dp"
+            />
+
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Delivery Address"
+                android:textSize="22dp"
+                android:id="@+id/address"
+                android:textColor="#53813c"
+                android:layout_marginTop="7dp"
+                />
+        </TableRow>
+    </TableLayout>
+            <!--
+             <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inputType="textPersonName"
+                 android:text=""
+                 android:ems="10"
+                 android:id="@+id/name"
+                 android:layout_gravity="right"
+                 android:layout_column="2" />
+         </TableRow>
+         <TableRow>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:text="Address"
+                 android:id="@+id/mobile"
+                 android:textColor="#000"
+                 android:layout_marginTop="7dp"
+                 />
+
+             <EditText
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:inputType="textPostalAddress"
+                 android:ems="10"
+                 android:layout_marginLeft="10dp"
+                 android:id="@+id/address"
+                 android:layout_column="2" />
+
+         </TableRow>
+         <TableRow>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:text="City with State"
+                 android:textColor="#000"
+                 android:layout_marginTop="7dp"
+                 android:layout_marginBottom="7dp"/>
+
+             <EditText
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:inputType="textPostalAddress"
+                 android:ems="10"
+                 android:layout_marginLeft="10dp"
+                 android:id="@+id/city"
+                 android:layout_column="2" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#1b847b7b"
+        android:paddingLeft="10dp"
+        android:id="@+id/table"
+        android:layout_marginBottom="100dp"
+
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Payment To card"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:id="@+id/cname1"
+            android:textColor="#000"
+            android:layout_marginTop="7dp"
+            />
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Choose Bank"
+                android:textSize="25dp"
+                android:id="@+id/card"
+                android:textColor="#b10000"
+                android:layout_marginTop="7dp"
+                />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Delivery Address"
+                android:textSize="22dp"
+                android:id="@+id/caddress"
+                android:textColor="#53813c"
+                android:layout_marginTop="7dp"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#1b847b7b"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/table"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="190dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Net Banking"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:id="@+id/cname2"
+            android:textColor="#000"
+            android:layout_marginTop="7dp"
+            />
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Choose Bank"
+                android:textSize="25dp"
+                android:id="@+id/netbanking"
+                android:textColor="#b10000"
+                android:layout_marginTop="7dp"
+                />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Delivery Address"
+                android:textSize="22dp"
+                android:id="@+id/naddress"
+                android:textColor="#53813c"
+                android:layout_marginTop="7dp"
+                />
+
+        </TableRow>
+    </TableLayout>
+-->
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/coordinatorLayout"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Payment">
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>
+
+
+
+
